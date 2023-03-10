@@ -1,14 +1,13 @@
-
-for (let i = 0; i <= 100; i++)
-    console.log(i);
-
-if (i % 3 ==0 ){
-        console.log("Fizz");
-
+for(let i = 0; i<= 100; i++) {
+    if (i % 3 == 0) {
+        console.log('Fizz');
 }
 if (i % 5 == 0) {
-     console.log ("Buzz");
+    console.log('Buzz');
 }
- if (i % 15 == 0) {
-     console.log ("FizzBuzz")
+if (i % 15 == 0) {
+    console.log('Fizzbuzz');
+} else if (i % 1 == 0) {
+    console.log(i)
+}
 }
